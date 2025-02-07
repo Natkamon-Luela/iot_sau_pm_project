@@ -19,7 +19,7 @@ class _IoTSauPMprojectState extends State<IoTSauPMproject> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreenUI(),
+      home: SplashScreenUi(),
       theme: ThemeData(
         textTheme: GoogleFonts.kanitTextTheme(Theme.of(context).textTheme),
       ),
